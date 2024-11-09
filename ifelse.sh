@@ -1,5 +1,9 @@
 #!/bin/bash
 
+## compare string
+if [ 'sda' == 'sdb' ]; then echo "1"; else echo "0";fi
+
+
 #man bash "Compound Commands"
 #man bash "CONDITIONAL EXPRESSIONS"
 dir1="/repo"
