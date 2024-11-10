@@ -5,7 +5,7 @@ if [ 'sda' == 'sdb' ]; then echo "1"; else echo "0";fi
 
 #test directory
 if [ -d /run/media/${USER1}/ ]  ; then echo good; else echo bad; fi
-if [ test -d /run/media/${USER1}/ ]  ; then echo good; else echo bad; fi
+if test -d /run/media/${USER1}/  ; then echo good; else echo bad; fi
 
 #man bash "Compound Commands"
 #man bash "CONDITIONAL EXPRESSIONS"
