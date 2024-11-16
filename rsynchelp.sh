@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rsync --help | grep -w -- -[aviPS]
+rsync --help | grep -w -- -[avizPS]
