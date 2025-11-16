@@ -1,0 +1,10 @@
+## 
+yum install iperf3
+iperf3 -s
+iperf3 -c HOST 
+
+##
+ping HOST -s 1472 -M do
+
+## rg ripgrep 
+ethtool --statistics INTERFACE
