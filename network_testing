@@ -8,3 +8,5 @@ ping HOST -s 1472 -M do
 
 ## rg ripgrep 
 ethtool --statistics INTERFACE
+ethtool -S INTERFACE
+ethtool -i INTERFACE
