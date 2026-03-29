@@ -6,7 +6,7 @@ last_host=150
 good_list=()
 bad_list=()
 
-for i in {10..20}; do a=$(ping -c1 10.0.0.$i); if [[ \"$a\" == *ttl* ]]; then echo $i-ok; else $i-x; fi; done
+for i in {10..20}; do a=$(ping -c1 10.0.0.$i); if [[ \"$a\" == *ttl* ]]; then echo $i-ok; else echo $i-x; fi; done
 
 for i in $(seq $first_host $last_host); do
     ping_results="$(ping -c1 $network_ip.$i)"
